@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void fact() {
     int num, factorial = 1;
 
     printf("Enter a positive integer: ");
@@ -17,5 +17,5 @@ int main() {
         printf("The factorial of %d is %d", num, factorial);
     }
 
-    return 0;
+  //  return 0;
 }

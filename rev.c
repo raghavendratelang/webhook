@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void reverse() {
     int num, rev_num = 0, remainder;
 
     printf("Enter a positive integer: ");
@@ -12,7 +12,7 @@ int main() {
         num /= 10;
     }
 
-    printf("The reversed number is %d", rev_num);
+    printf("The reversed number is %d\n", rev_num);
 
-    return 0;
+//    return 0;
 }

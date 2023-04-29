@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void big2() {
     int num1, num2;
 
     printf("Enter the first number: ");
@@ -16,5 +16,5 @@ int main() {
         printf("%d is bigger than %d", num2, num1);
     }
 
-    return 0;
+  //  return 0;
 }
