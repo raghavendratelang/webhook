@@ -8,4 +8,5 @@ main() {
 	sumoftwonumbers(); 
 	fibanaci();
 	sortingnumbers();
+	oddeven();
 }
